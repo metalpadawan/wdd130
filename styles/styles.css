@@ -32,3 +32,22 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Nav Rule */
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+}
+
+/* Nav Anchor Rule */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+/* Heading 1 Rule */
+h1 {
+    color: steelblue;
+    font-family: Arial, sans-serif;
+}
