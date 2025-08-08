@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Shinigami Rafting Company for inquiries, reservations, or suggestions." />
+    <meta name="author" content="Emmanuel Ndem" />
+    <title>Contact Us | Shinigami Rafting Company</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/rafting.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-crossedoars.png" alt="Rafting Company Logo" />
+        <h1>White Water Rafting</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+
+        <!-- Company Info + Map -->
+        <section class="contact-info">
+            <h3>Company Information</h3>
+            <p><strong>Address:</strong> Obudu Mountain Resort, Cross River State, RC 54321</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> contact@shinigamirafting.com</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31719.656424921606!2d9.35069833955079!3d6.399535799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105bdfdfcb31a793%3A0x1f290cd33652b175!2sObudu%20Mountain%20Resort!5e0!3m2!1sen!2sng!4v1754575805041!5m2!1sen!2sng"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Employee Gallery -->
+        <section class="employee-profiles">
+            <h3>Meet Our Team</h3>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/Tim_raft-guide.jpg" alt="Alex - Tour Guide">
+                    <figcaption>Alex - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/customer_agent.jpg" alt="Maya - Customer Service">
+                    <figcaption>Maya - Customer Service</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/safety-1.jpg" alt="Chris - Safety Specialist">
+                    <figcaption>Chris - Safety Specialist</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <label for="username">Name:</label>
+                    <input type="text" id="username" name="username" placeholder="Your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <p>Purpose of Message:</p>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type your message here..."
+                        required></textarea>
+
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shinigami Rafting Company | Emmanuel Ndem</p>
+        <a href="images/week6_wireframe.png">View Wireframe</a>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook_icon.png" alt="Facebook icon"></a>
+            <a href="https://twitter.com"><img src="images/twitter_icon.png" alt="Twitter icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram_icon.png" alt="Instagram icon"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
